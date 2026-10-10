@@ -13,8 +13,10 @@
 #define LAB_32_MICROPHONE 11
 #define LAB_31_ENCODER 12
 #define LAB_32_ENCODER 13
+#define LAB_41 14
+#define LAB_42 15
 #ifndef LAB_SELECT
-#define LAB_SELECT LAB_32_ENCODER
+#define LAB_SELECT LAB_41
 #endif
 
 #if LAB_SELECT == LAB_11
@@ -43,6 +45,10 @@
 #include "lab_3/app_lab_3.1_encoder.h"
 #elif LAB_SELECT == LAB_32_ENCODER
 #include "lab_3/app_lab_3.2_encoder.h"
+#elif LAB_SELECT == LAB_41
+#include "lab_4/app_lab_4.1.h"
+#elif LAB_SELECT == LAB_42
+#include "lab_4/app_lab_4.2.h"
 #else
 #error Laborator necunoscut
 #endif
@@ -74,6 +80,10 @@ void setup() {
   lab31EncoderSetup();
 #elif LAB_SELECT == LAB_32_ENCODER
   lab32EncoderSetup();
+#elif LAB_SELECT == LAB_41
+  lab41Setup();
+#elif LAB_SELECT == LAB_42
+  lab42Setup();
 #endif
 }
 
@@ -104,5 +114,9 @@ void loop() {
   lab31EncoderLoop();
 #elif LAB_SELECT == LAB_32_ENCODER
   lab32EncoderLoop();
+#elif LAB_SELECT == LAB_41
+  lab41Loop();
+#elif LAB_SELECT == LAB_42
+  lab42Loop();
 #endif
 }
