@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1080" viewBox="0 0 1800 1080">
+<rect width="1800" height="1080" fill="white"/>
+<rect x="1200" y="80" width="310" height="720" fill="white" stroke="#e64949" stroke-width="2"/>
+<text x="1355.0" y="66" font-family="Arial, sans-serif" font-size="20" fill="#777777" text-anchor="middle"></text>
+<text x="1355.0" y="440.0" font-family="Arial, sans-serif" font-size="22" fill="#e64949" text-anchor="middle">Arduino UNO</text>
+<polyline points="1200,110 1174,110" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="1212" y="103" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="start">VIN</text>
+<polyline points="1200,150 1174,150" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="1212" y="143" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="start">5V</text>
+<polyline points="1200,190 1174,190" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="1212" y="183" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="start">3.3V</text>
+<polyline points="1200,270 1174,270" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="1212" y="263" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="start">AREF</text>
+<polyline points="1200,310 1174,310" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="1212" y="303" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="start">IOREF</text>
+<polyline points="1200,350 1174,350" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="1212" y="343" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="start">RES</text>
+<polyline points="1200,410 1174,410" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="1212" y="403" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="start">A0</text>
+<polyline points="1200,450 1174,450" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="1212" y="443" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="start">A1</text>
+<polyline points="1200,490 1174,490" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="1212" y="483" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="start">A2</text>
+<polyline points="1200,530 1174,530" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="1212" y="523" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="start">A3</text>
+<polyline points="1200,570 1174,570" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="1212" y="563" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="start">A4</text>
+<polyline points="1200,610 1174,610" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="1212" y="603" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="start">A5</text>
+<polyline points="1200,750 1174,750" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="1212" y="743" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="start">GND</text>
+<polyline points="1510,110 1536,110" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="1498" y="103" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="end">RX</text>
+<polyline points="1510,150 1536,150" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="1498" y="143" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="end">TX</text>
+<polyline points="1510,190 1536,190" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="1498" y="183" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="end">D2</text>
+<polyline points="1510,230 1536,230" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="1498" y="223" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="end">D3</text>
+<polyline points="1510,270 1536,270" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="1498" y="263" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="end">D4</text>
+<polyline points="1510,310 1536,310" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="1498" y="303" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="end">D5</text>
+<polyline points="1510,350 1536,350" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="1498" y="343" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="end">D6</text>
+<polyline points="1510,390 1536,390" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="1498" y="383" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="end">D7</text>
+<polyline points="1510,430 1536,430" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="1498" y="423" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="end">D8</text>
+<polyline points="1510,470 1536,470" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="1498" y="463" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="end">D9</text>
+<polyline points="1510,510 1536,510" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="1498" y="503" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="end">D10</text>
+<polyline points="1510,550 1536,550" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="1498" y="543" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="end">D11</text>
+<polyline points="1510,590 1536,590" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="1498" y="583" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="end">D12</text>
+<polyline points="1510,630 1536,630" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="1498" y="623" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="end">D13</text>
+<polyline points="1510,710 1536,710" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="1498" y="703" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="end">SDA</text>
+<polyline points="1510,750 1536,750" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="1498" y="743" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="end">SCL</text>
+<rect x="650" y="180" width="280" height="650" fill="white" stroke="#e64949" stroke-width="2"/>
+<text x="790.0" y="166" font-family="Arial, sans-serif" font-size="20" fill="#777777" text-anchor="middle"></text>
+<text x="790.0" y="505.0" font-family="Arial, sans-serif" font-size="22" fill="#e64949" text-anchor="middle">L293D</text>
+<polyline points="930,310 956,310" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="918" y="303" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="end">1-2EN</text>
+<polyline points="956,310 980,310 980,860 1600,860 1600,310 1536,310" fill="none" stroke="#39a878" stroke-width="1.7"/>
+<polyline points="930,350 956,350" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="918" y="343" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="end">1A</text>
+<polyline points="956,350 1015,350 1015,895 1640,895 1640,350 1536,350" fill="none" stroke="#39a878" stroke-width="1.7"/>
+<polyline points="930,390 956,390" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="918" y="383" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="end">2A</text>
+<polyline points="956,390 1050,390 1050,930 1680,930 1680,390 1536,390" fill="none" stroke="#39a878" stroke-width="1.7"/>
+<polyline points="650,220 624,220" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="662" y="213" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="start">VCC1</text>
+<polyline points="650,280 624,280" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="662" y="273" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="start">VCC2</text>
+<polyline points="1174,150 1100,150 1100,40 520,40 520,220" fill="none" stroke="#39a878" stroke-width="1.7"/>
+<polyline points="520,220 624,220" fill="none" stroke="#39a878" stroke-width="1.7"/>
+<polyline points="520,220 520,280 624,280" fill="none" stroke="#39a878" stroke-width="1.7"/>
+<circle cx="520" cy="220" r="4" fill="#39a878"/>
+<polyline points="650,350 624,350" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="662" y="343" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="start">1Y</text>
+<polyline points="650,410 624,410" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="662" y="403" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="start">2Y</text>
+<polyline points="624,350 420,350 420,340 300,340" fill="none" stroke="#39a878" stroke-width="1.7"/>
+<polyline points="624,410 420,410 420,460 300,460" fill="none" stroke="#39a878" stroke-width="1.7"/>
+<circle cx="300" cy="400" r="60" fill="white" stroke="#e64949" stroke-width="2"/>
+<text x="300" y="418" font-family="Arial, sans-serif" font-size="50" fill="#e64949" text-anchor="middle">M</text>
+<polyline points="650,540 624,540" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="662" y="533" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="start">GND</text>
+<polyline points="624,540 570,540 570,1000" fill="none" stroke="#39a878" stroke-width="1.7"/>
+<circle cx="570" cy="540" r="4" fill="#39a878"/>
+<polyline points="650,610 624,610" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="662" y="603" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="start">GND</text>
+<polyline points="624,610 570,610 570,1000" fill="none" stroke="#39a878" stroke-width="1.7"/>
+<circle cx="570" cy="610" r="4" fill="#39a878"/>
+<polyline points="650,680 624,680" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="662" y="673" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="start">GND</text>
+<polyline points="624,680 570,680 570,1000" fill="none" stroke="#39a878" stroke-width="1.7"/>
+<circle cx="570" cy="680" r="4" fill="#39a878"/>
+<polyline points="650,750 624,750" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="662" y="743" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="start">GND</text>
+<polyline points="624,750 570,750 570,1000" fill="none" stroke="#39a878" stroke-width="1.7"/>
+<circle cx="570" cy="750" r="4" fill="#39a878"/>
+<polyline points="930,540 956,540" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="918" y="533" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="end">3Y</text>
+<polyline points="930,610 956,610" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="918" y="603" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="end">4Y</text>
+<polyline points="930,680 956,680" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="918" y="673" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="end">3-4EN</text>
+<polyline points="956,680 970,680 970,1000" fill="none" stroke="#39a878" stroke-width="1.7"/>
+<circle cx="970" cy="1000" r="4" fill="#39a878"/>
+<polyline points="930,750 956,750" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="918" y="743" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="end">3A</text>
+<polyline points="956,750 1000,750 1000,1000" fill="none" stroke="#39a878" stroke-width="1.7"/>
+<circle cx="1000" cy="1000" r="4" fill="#39a878"/>
+<polyline points="930,800 956,800" fill="none" stroke="#e64949" stroke-width="1.7"/>
+<text x="918" y="793" font-family="Arial, sans-serif" font-size="16" fill="#777777" text-anchor="end">4A</text>
+<polyline points="956,800 1030,800 1030,1000" fill="none" stroke="#39a878" stroke-width="1.7"/>
+<circle cx="1030" cy="1000" r="4" fill="#39a878"/>
+<polyline points="1174,750 1140,750 1140,1000 500,1000" fill="none" stroke="#39a878" stroke-width="1.7"/>
+<circle cx="570" cy="1000" r="4" fill="#39a878"/>
+</svg>

@@ -47,3 +47,13 @@ void serialStdioInit(unsigned long baud) {
   stdout = &serialStdOut;
   stdin = &serialStdIn;
 }
+
+static int serialGetCharNonBlocking(FILE *) {
+  return Serial.available() ? Serial.read() : _FDEV_EOF;
+}
+
+void serialStdioInitNonBlocking(unsigned long baud) {
+  serialStdioInit(baud);
+  fdev_setup_stream(&serialStdIn, NULL, serialGetCharNonBlocking, _FDEV_SETUP_READ);
+  stdin = &serialStdIn;
+}

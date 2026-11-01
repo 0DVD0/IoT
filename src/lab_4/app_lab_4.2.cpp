@@ -7,7 +7,6 @@
 #include "motorCommand.h"
 #include "motorReport.h"
 #include "rtosSerialStdio.h"
-#include "rtosTime.h"
 namespace {
 const uint8_t enablePin=5, in1Pin=6, in2Pin=7;
 const size_t lineCapacity=64;
@@ -63,12 +62,8 @@ void controlTask(void *) {
         default: message="EROARE comanda sau valoare invalida; foloseste help"; break;
       }
     }
-    const int16_t before=motor.appliedPercent;
-    const bool wasWaiting=motor.waiting;
+    // Continua inversarea temporizata fara rapoarte nesolicitate.
     motorUpdate(motor,millis());
-    if (before!=motor.appliedPercent || wasWaiting!=motor.waiting) {
-      publish=true; message="Iesire actualizata";
-    }
     if (publish) {
       MotorSnapshot snapshot={motor.targetPercent,motor.appliedPercent,motor.direction,
         motorPwm(motor.appliedPercent),motor.waiting,number,message};
@@ -81,7 +76,8 @@ void controlTask(void *) {
 void reportTask(void *) {
   uint32_t lastHelpNumber=0;
   for (;;) {
-    ulTaskNotifyTake(pdTRUE,rtosTicksForMs(1000));
+    // Afiseaza numai la notificare, inclusiv daca asteptarea expira pe AVR.
+    if (ulTaskNotifyTake(pdTRUE,portMAX_DELAY)==0) continue;
     MotorSnapshot snapshot;
     if (xQueuePeek(stateMailbox,&snapshot,0)==pdTRUE) {
       motorPrintReport(snapshot);
@@ -95,7 +91,9 @@ void reportTask(void *) {
 void lab42Setup() {
   motorInit(motor,enablePin,in1Pin,in2Pin);
   rtosSerialStdioInit(115200);
-  printf("Lab 4.2 L298 | ENA=D5 IN1=D6 IN2=D7 | Serial 115200\n");
+  printf("Lab 4.2 L293D / L298 | EN=D5 IN1=D6 IN2=D7 | Serial 115200\n");
+  printf("L293D: D5->1-2EN, D6->1A, D7->2A; motor intre 1Y si 2Y.\n");
+  printf("Control MANUAL: motor oprit la pornire. Trimite comanda cu Enter (LF/CRLF).\n");
   printf("Raportare duty-cycle comandat, nu turatie masurata. Inc/dec modifica modulul puterii.\n");
   motorPrintHelp();
   commands=xQueueCreate(8,sizeof(MotorCommand));

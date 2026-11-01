@@ -1,10 +1,33 @@
-# Laboratorul 4.2 — Motor DC prin L298N
+# Laboratorul 4.2 — Motor DC prin L298N / L293D
 
 ## Pornire
 
 PlatformIO -> Project Tasks -> megaatmega2560_lab42 -> Upload, apoi Monitor
-la 115200 baud. Mediul defineste LAB_SELECT=15; selectia implicita a celorlalte
-laboratoare nu a fost modificata. Nu necesita LCD sau Keypad.
+la 115200 baud. Mediul defineste LAB_SELECT=15 si este acum selectat implicit.
+Monitorul foloseste LF la Enter si ecou local. Nu necesita LCD sau Keypad.
+Configuratia este pentru Mega 2560, nu pentru Uno din simularea Tinkercad.
+
+## Varianta L293D
+
+Se reutilizeaza driverul L298_LIB: ambele punti accepta EN si doua intrari
+de directie active HIGH. Nu exista secventa automata de pornire a motorului.
+
+| Mega / componenta | L293D (DIP16) |
+|---|---|
+| D5 PWM | 1-2EN, pin 1 |
+| D6 | 1A, pin 2 |
+| D7 | 2A, pin 7 |
+| Motor | 1Y pin 3 si 2Y pin 6 |
+| 5V logica | VCC1 pin 16 |
+| Alimentare motor | VCC2 pin 8 |
+| GND comun | pinii 4, 5, 12, 13 |
+| GND (canal nefolosit) | 3-4EN pin 9, 3A pin 10, 4A pin 15 |
+
+Iesirile 3Y/4Y raman libere. Nu exista jumpere ENA/5V-EN pe cipul L293D.
+Alimentarea VCC2 din 5V Arduino nu este validata pentru motorul utilizatorului:
+curentul de pornire/blocare si incalzirea trebuie verificate. Codul nu limiteaza
+curentul; PWM nu inlocuieste o sursa potrivita. Succesul compilarii nu valideaza
+alimentarea sau circuitul fizic. L293D inlocuieste L298 din cerinta originala.
 
 ## Conectare Mega 2560
 
@@ -78,8 +101,9 @@ stdout dupa setup, pentru a evita amestecarea mesajelor. Recepția foloseste
 scanf("%c") cu buffer limitat si normalizare CR/LF/CRLF in adaptor.
 
 Task-ul de control asteapta o comanda maximum un tick, apoi actualizeaza si
-starea de inversare. Task-ul de raportare este trezit la publicarea starii
-sau la expirarea perioadei de aproximativ o secunda. Mailboxul pastreaza
+starea de inversare. Raportarea are loc la pornire si dupa comenzi, fara
+repetare periodica. Finalizarea pauzei de inversare nu afiseaza un mesaj;
+motor status permite verificarea starii actuale. Mailboxul pastreaza
 ultima stare; comenzi trimise in rafala pot avea rapoarte intermediare
 comasate. Numarul comenzii permite observarea acestei situatii.
 

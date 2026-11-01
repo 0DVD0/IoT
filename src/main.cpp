@@ -15,8 +15,10 @@
 #define LAB_32_ENCODER 13
 #define LAB_41 14
 #define LAB_42 15
+#define LAB_51 16
+#define LAB_52 17
 #ifndef LAB_SELECT
-#define LAB_SELECT LAB_41
+#define LAB_SELECT LAB_52
 #endif
 
 #if LAB_SELECT == LAB_11
@@ -49,6 +51,10 @@
 #include "lab_4/app_lab_4.1.h"
 #elif LAB_SELECT == LAB_42
 #include "lab_4/app_lab_4.2.h"
+#elif LAB_SELECT == LAB_51
+#include "lab_5/app_lab_5.1.h"
+#elif LAB_SELECT == LAB_52
+#include "lab_5/app_lab_5.2.h"
 #else
 #error Laborator necunoscut
 #endif
@@ -84,6 +90,10 @@ void setup() {
   lab41Setup();
 #elif LAB_SELECT == LAB_42
   lab42Setup();
+#elif LAB_SELECT == LAB_51
+  lab51Setup();
+#elif LAB_SELECT == LAB_52
+  lab52Setup();
 #endif
 }
 
@@ -118,5 +128,9 @@ void loop() {
   lab41Loop();
 #elif LAB_SELECT == LAB_42
   lab42Loop();
+#elif LAB_SELECT == LAB_51
+  lab51Loop();
+#elif LAB_SELECT == LAB_52
+  lab52Loop();
 #endif
 }
