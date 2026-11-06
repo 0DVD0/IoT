@@ -17,6 +17,8 @@
 #define LAB_42 15
 #define LAB_51 16
 #define LAB_52 17
+#define LAB_61 18
+#define LAB_62 19
 #ifndef LAB_SELECT
 #define LAB_SELECT LAB_52
 #endif
@@ -55,6 +57,10 @@
 #include "lab_5/app_lab_5.1.h"
 #elif LAB_SELECT == LAB_52
 #include "lab_5/app_lab_5.2.h"
+#elif LAB_SELECT == LAB_61
+#include "lab_6/app_lab_6.1.h"
+#elif LAB_SELECT == LAB_62
+#include "lab_6/app_lab_6.2.h"
 #else
 #error Laborator necunoscut
 #endif
@@ -94,6 +100,10 @@ void setup() {
   lab51Setup();
 #elif LAB_SELECT == LAB_52
   lab52Setup();
+#elif LAB_SELECT == LAB_61
+  lab61Setup();
+#elif LAB_SELECT == LAB_62
+  lab62Setup();
 #endif
 }
 
@@ -132,5 +142,9 @@ void loop() {
   lab51Loop();
 #elif LAB_SELECT == LAB_52
   lab52Loop();
+#elif LAB_SELECT == LAB_61
+  lab61Loop();
+#elif LAB_SELECT == LAB_62
+  lab62Loop();
 #endif
 }
