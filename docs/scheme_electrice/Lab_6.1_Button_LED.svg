@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1150" height="620" viewBox="0 0 1150 620"><rect width="100%" height="100%" fill="white"/><defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#e74b4b"/></marker></defs>
+<rect x="260" y="90" width="240" height="420" fill="white" stroke="#e74b4b" stroke-width="1.6"/>
+<text x="380" y="125" font-family="Arial,sans-serif" font-size="23" fill="#e74b4b" text-anchor="middle">Arduino</text>
+<text x="380" y="154" font-family="Arial,sans-serif" font-size="23" fill="#e74b4b" text-anchor="middle">Mega 2560</text>
+<path d="M240,200 L260,200" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="275" y="206" font-family="Arial,sans-serif" font-size="18" fill="#777777" text-anchor="start">VIN</text>
+<path d="M240,244 L260,244" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="275" y="250" font-family="Arial,sans-serif" font-size="18" fill="#777777" text-anchor="start">5V</text>
+<path d="M240,288 L260,288" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="275" y="294" font-family="Arial,sans-serif" font-size="18" fill="#777777" text-anchor="start">3.3V</text>
+<path d="M240,332 L260,332" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="275" y="338" font-family="Arial,sans-serif" font-size="18" fill="#777777" text-anchor="start">AREF</text>
+<path d="M240,376 L260,376" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="275" y="382" font-family="Arial,sans-serif" font-size="18" fill="#777777" text-anchor="start">RESET</text>
+<text x="483" y="226" font-family="Arial,sans-serif" font-size="18" fill="#777777" text-anchor="end">D7</text>
+<path d="M500,220 L525,220" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="483" y="416" font-family="Arial,sans-serif" font-size="18" fill="#777777" text-anchor="end">D22</text>
+<path d="M500,410 L525,410" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="380" y="465" font-family="Arial,sans-serif" font-size="18" fill="#777777" text-anchor="middle">GND</text>
+<path d="M380,475 L380,530" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<path d="M380,530 L380,545" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M380,545 L380,557" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<path d="M367,557 L393,557" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<path d="M372,563 L388,563" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<path d="M377,569 L383,569" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<path d="M525,220 L590,220" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M590,220 L600,220" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<rect x="600" y="211" width="65" height="18" fill="white" stroke="#e74b4b" stroke-width="1.6"/>
+<path d="M665,220 L675,220" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="632" y="200" font-family="Arial,sans-serif" font-size="16" fill="#777777" text-anchor="middle">220 Ω</text>
+<path d="M675,220 L735,220" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M735,220 L755,220" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<path d="M755,206 L755,234 L782,220 Z M782,205 L782,235 M782,220 L802,220" fill="none" stroke="#e74b4b" stroke-width="1.6"/>
+<path d="M767,200 l15,-16" stroke="#e74b4b" stroke-width="1.4" marker-end="url(#arrow)"/>
+<path d="M782,200 l15,-16" stroke="#e74b4b" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="825" y="226" font-family="Arial,sans-serif" font-size="17" fill="#777777" text-anchor="start">LED</text>
+<path d="M802,220 L815,220" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M815,220 L815,250" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M815,250 L1050,250" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<circle cx="1050" cy="250" r="3" fill="#32b983"/>
+<path d="M525,410 L650,410" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M650,410 L670,410" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<circle cx="670" cy="410" r="3" fill="white" stroke="#e74b4b" stroke-width="1.6"/>
+<circle cx="720" cy="410" r="3" fill="white" stroke="#e74b4b" stroke-width="1.6"/>
+<path d="M670,406 L714,393" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<path d="M692,385 L692,370" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<path d="M681,370 L703,370" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="750" y="398" font-family="Arial,sans-serif" font-size="17" fill="#777777" text-anchor="start">Buton</text>
+<path d="M723,410 L1050,410" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<circle cx="1050" cy="410" r="3" fill="#32b983"/>
+<path d="M1050,250 L1050,500" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M1050,500 L1050,512" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<path d="M1037,512 L1063,512" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<path d="M1042,518 L1058,518" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<path d="M1047,524 L1053,524" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+</svg>

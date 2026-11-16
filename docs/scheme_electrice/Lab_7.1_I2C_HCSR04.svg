@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1620" height="850" viewBox="0 0 1620 850"><rect width="100%" height="100%" fill="white"/><defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#e74b4b"/></marker></defs>
+<rect x="100" y="290" width="260" height="370" fill="white" stroke="#e74b4b" stroke-width="1.6"/>
+<text x="230" y="323" font-family="Arial,sans-serif" font-size="21" fill="#e74b4b" text-anchor="middle">Arduino Mega 2560</text>
+<text x="230" y="351" font-family="Arial,sans-serif" font-size="18" fill="#777777" text-anchor="middle">MASTER</text>
+<path d="M230,635 L230,685" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="230" y="623" font-family="Arial,sans-serif" font-size="18" fill="#777777" text-anchor="middle">GND</text>
+<path d="M230,685 L230,750" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<circle cx="230" cy="750" r="3" fill="#32b983"/>
+<rect x="850" y="290" width="260" height="370" fill="white" stroke="#e74b4b" stroke-width="1.6"/>
+<text x="980" y="323" font-family="Arial,sans-serif" font-size="21" fill="#e74b4b" text-anchor="middle">Arduino Mega 2560</text>
+<text x="980" y="351" font-family="Arial,sans-serif" font-size="18" fill="#777777" text-anchor="middle">SLAVE</text>
+<path d="M980,635 L980,685" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="980" y="623" font-family="Arial,sans-serif" font-size="18" fill="#777777" text-anchor="middle">GND</text>
+<path d="M980,685 L980,750" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<circle cx="980" cy="750" r="3" fill="#32b983"/>
+<path d="M75,385 L100,385" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="115" y="391" font-family="Arial,sans-serif" font-size="18" fill="#777777" text-anchor="start">5V</text>
+<path d="M360,430 L385,430" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="345" y="436" font-family="Arial,sans-serif" font-size="18" fill="#777777" text-anchor="end">D20 / SDA</text>
+<path d="M360,500 L385,500" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="345" y="506" font-family="Arial,sans-serif" font-size="18" fill="#777777" text-anchor="end">D21 / SCL</text>
+<path d="M360,590 L385,590" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="345" y="596" font-family="Arial,sans-serif" font-size="18" fill="#777777" text-anchor="end">D7</text>
+<path d="M825,430 L850,430" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="865" y="436" font-family="Arial,sans-serif" font-size="18" fill="#777777" text-anchor="start">D20 / SDA</text>
+<path d="M825,500 L850,500" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="865" y="506" font-family="Arial,sans-serif" font-size="18" fill="#777777" text-anchor="start">D21 / SCL</text>
+<path d="M385,430 L825,430" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M385,500 L825,500" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<text x="590" y="74" font-family="Arial,sans-serif" font-size="18" fill="#777777" text-anchor="middle">Pull-up externe, numai daca sunt necesare</text>
+<path d="M75,385 L45,385" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M45,385 L45,130" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M45,130 L680,130" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M530,130 L530,190" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M530,190 L530,205" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<rect x="521" y="205" width="18" height="65" fill="white" stroke="#e74b4b" stroke-width="1.6"/>
+<path d="M530,270 L530,285" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<path d="M530,285 L530,430" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<circle cx="530" cy="430" r="3" fill="#32b983"/>
+<text x="550" y="245" font-family="Arial,sans-serif" font-size="17" fill="#777777" text-anchor="start">4,7 kΩ</text>
+<path d="M680,130 L680,190" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M680,190 L680,205" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<rect x="671" y="205" width="18" height="65" fill="white" stroke="#e74b4b" stroke-width="1.6"/>
+<path d="M680,270 L680,285" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<path d="M680,285 L680,500" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<circle cx="680" cy="500" r="3" fill="#32b983"/>
+<text x="700" y="245" font-family="Arial,sans-serif" font-size="17" fill="#777777" text-anchor="start">4,7 kΩ</text>
+<circle cx="530" cy="130" r="3" fill="#32b983"/>
+<rect x="1320" y="345" width="220" height="300" fill="white" stroke="#e74b4b" stroke-width="1.6"/>
+<text x="1430" y="382" font-family="Arial,sans-serif" font-size="24" fill="#e74b4b" text-anchor="middle">HC-SR04</text>
+<path d="M1295,420 L1320,420" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="1335" y="426" font-family="Arial,sans-serif" font-size="18" fill="#777777" text-anchor="start">VCC</text>
+<path d="M1295,480 L1320,480" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="1335" y="486" font-family="Arial,sans-serif" font-size="18" fill="#777777" text-anchor="start">TRIG</text>
+<path d="M1295,540 L1320,540" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="1335" y="546" font-family="Arial,sans-serif" font-size="18" fill="#777777" text-anchor="start">ECHO</text>
+<path d="M1430,620 L1430,670" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="1430" y="608" font-family="Arial,sans-serif" font-size="18" fill="#777777" text-anchor="middle">GND</text>
+<path d="M1430,670 L1430,750" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<circle cx="1430" cy="750" r="3" fill="#32b983"/>
+<path d="M1110,400 L1135,400" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="1095" y="406" font-family="Arial,sans-serif" font-size="18" fill="#777777" text-anchor="end">5V</text>
+<path d="M1110,470 L1135,470" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="1095" y="476" font-family="Arial,sans-serif" font-size="18" fill="#777777" text-anchor="end">D6</text>
+<path d="M1110,540 L1135,540" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="1095" y="546" font-family="Arial,sans-serif" font-size="18" fill="#777777" text-anchor="end">D2</text>
+<path d="M1135,400 L1220,400" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M1220,400 L1220,420" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M1220,420 L1295,420" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M1135,470 L1190,470" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M1190,470 L1190,480" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M1190,480 L1295,480" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M1135,540 L1295,540" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M385,590 L430,590" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M430,590 L440,590" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<rect x="440" y="581" width="65" height="18" fill="white" stroke="#e74b4b" stroke-width="1.6"/>
+<path d="M505,590 L515,590" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="472" y="570" font-family="Arial,sans-serif" font-size="17" fill="#777777" text-anchor="middle">220 Ω</text>
+<path d="M515,590 L570,590" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M570,590 L590,590" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<path d="M590,576 L590,604 L617,590 Z M617,575 L617,605 M617,590 L637,590" fill="none" stroke="#e74b4b" stroke-width="1.6"/>
+<path d="M602,570 l15,-16" stroke="#e74b4b" stroke-width="1.4" marker-end="url(#arrow)"/>
+<path d="M617,570 l15,-16" stroke="#e74b4b" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="650" y="578" font-family="Arial,sans-serif" font-size="17" fill="#777777" text-anchor="start">Alerta apropiere</text>
+<path d="M637,590 L730,590" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M730,590 L730,750" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<circle cx="730" cy="750" r="3" fill="#32b983"/>
+<path d="M230,750 L1430,750" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M980,750 L980,762" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<path d="M967,762 L993,762" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<path d="M972,768 L988,768" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<path d="M977,774 L983,774" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+</svg>

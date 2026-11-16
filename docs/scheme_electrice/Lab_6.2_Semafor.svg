@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1150" height="1000" viewBox="0 0 1150 1000"><rect width="100%" height="100%" fill="white"/><defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#e74b4b"/></marker></defs>
+<rect x="260" y="90" width="240" height="845" fill="white" stroke="#e74b4b" stroke-width="1.6"/>
+<text x="380" y="125" font-family="Arial,sans-serif" font-size="23" fill="#e74b4b" text-anchor="middle">Arduino</text>
+<text x="380" y="154" font-family="Arial,sans-serif" font-size="23" fill="#e74b4b" text-anchor="middle">Mega 2560</text>
+<path d="M240,200 L260,200" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="275" y="206" font-family="Arial,sans-serif" font-size="18" fill="#777777" text-anchor="start">VIN</text>
+<path d="M240,244 L260,244" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="275" y="250" font-family="Arial,sans-serif" font-size="18" fill="#777777" text-anchor="start">5V</text>
+<path d="M240,288 L260,288" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="275" y="294" font-family="Arial,sans-serif" font-size="18" fill="#777777" text-anchor="start">3.3V</text>
+<path d="M240,332 L260,332" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="275" y="338" font-family="Arial,sans-serif" font-size="18" fill="#777777" text-anchor="start">AREF</text>
+<path d="M240,376 L260,376" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="275" y="382" font-family="Arial,sans-serif" font-size="18" fill="#777777" text-anchor="start">RESET</text>
+<text x="483" y="216" font-family="Arial,sans-serif" font-size="18" fill="#777777" text-anchor="end">D4</text>
+<path d="M500,210 L525,210" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="483" y="301" font-family="Arial,sans-serif" font-size="18" fill="#777777" text-anchor="end">D5</text>
+<path d="M500,295 L525,295" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="483" y="386" font-family="Arial,sans-serif" font-size="18" fill="#777777" text-anchor="end">D6</text>
+<path d="M500,380 L525,380" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="483" y="471" font-family="Arial,sans-serif" font-size="18" fill="#777777" text-anchor="end">D7</text>
+<path d="M500,465 L525,465" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="483" y="556" font-family="Arial,sans-serif" font-size="18" fill="#777777" text-anchor="end">D8</text>
+<path d="M500,550 L525,550" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="483" y="641" font-family="Arial,sans-serif" font-size="18" fill="#777777" text-anchor="end">D9</text>
+<path d="M500,635 L525,635" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="483" y="786" font-family="Arial,sans-serif" font-size="18" fill="#777777" text-anchor="end">D22</text>
+<path d="M500,780 L525,780" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="483" y="886" font-family="Arial,sans-serif" font-size="18" fill="#777777" text-anchor="end">D24</text>
+<path d="M500,880 L525,880" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="380" y="890" font-family="Arial,sans-serif" font-size="18" fill="#777777" text-anchor="middle">GND</text>
+<path d="M380,900 L380,955" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<path d="M380,955 L380,970" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M380,970 L380,982" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<path d="M367,982 L393,982" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<path d="M372,988 L388,988" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<path d="M377,994 L383,994" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<path d="M525,210 L590,210" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M590,210 L600,210" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<rect x="600" y="201" width="65" height="18" fill="white" stroke="#e74b4b" stroke-width="1.6"/>
+<path d="M665,210 L675,210" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="632" y="190" font-family="Arial,sans-serif" font-size="16" fill="#777777" text-anchor="middle">220 Ω</text>
+<path d="M675,210 L735,210" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M735,210 L755,210" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<path d="M755,196 L755,224 L782,210 Z M782,195 L782,225 M782,210 L802,210" fill="none" stroke="#e74b4b" stroke-width="1.6"/>
+<path d="M767,190 l15,-16" stroke="#e74b4b" stroke-width="1.4" marker-end="url(#arrow)"/>
+<path d="M782,190 l15,-16" stroke="#e74b4b" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="825" y="216" font-family="Arial,sans-serif" font-size="17" fill="#777777" text-anchor="start">Est — roșu</text>
+<path d="M802,210 L815,210" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M815,210 L815,240" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M815,240 L1050,240" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<circle cx="1050" cy="240" r="3" fill="#32b983"/>
+<path d="M525,295 L590,295" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M590,295 L600,295" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<rect x="600" y="286" width="65" height="18" fill="white" stroke="#e74b4b" stroke-width="1.6"/>
+<path d="M665,295 L675,295" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="632" y="275" font-family="Arial,sans-serif" font-size="16" fill="#777777" text-anchor="middle">220 Ω</text>
+<path d="M675,295 L735,295" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M735,295 L755,295" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<path d="M755,281 L755,309 L782,295 Z M782,280 L782,310 M782,295 L802,295" fill="none" stroke="#e74b4b" stroke-width="1.6"/>
+<path d="M767,275 l15,-16" stroke="#e74b4b" stroke-width="1.4" marker-end="url(#arrow)"/>
+<path d="M782,275 l15,-16" stroke="#e74b4b" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="825" y="301" font-family="Arial,sans-serif" font-size="17" fill="#777777" text-anchor="start">Est — galben</text>
+<path d="M802,295 L815,295" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M815,295 L815,325" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M815,325 L1050,325" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<circle cx="1050" cy="325" r="3" fill="#32b983"/>
+<path d="M525,380 L590,380" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M590,380 L600,380" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<rect x="600" y="371" width="65" height="18" fill="white" stroke="#e74b4b" stroke-width="1.6"/>
+<path d="M665,380 L675,380" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="632" y="360" font-family="Arial,sans-serif" font-size="16" fill="#777777" text-anchor="middle">220 Ω</text>
+<path d="M675,380 L735,380" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M735,380 L755,380" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<path d="M755,366 L755,394 L782,380 Z M782,365 L782,395 M782,380 L802,380" fill="none" stroke="#e74b4b" stroke-width="1.6"/>
+<path d="M767,360 l15,-16" stroke="#e74b4b" stroke-width="1.4" marker-end="url(#arrow)"/>
+<path d="M782,360 l15,-16" stroke="#e74b4b" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="825" y="386" font-family="Arial,sans-serif" font-size="17" fill="#777777" text-anchor="start">Est — verde</text>
+<path d="M802,380 L815,380" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M815,380 L815,410" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M815,410 L1050,410" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<circle cx="1050" cy="410" r="3" fill="#32b983"/>
+<path d="M525,465 L590,465" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M590,465 L600,465" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<rect x="600" y="456" width="65" height="18" fill="white" stroke="#e74b4b" stroke-width="1.6"/>
+<path d="M665,465 L675,465" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="632" y="445" font-family="Arial,sans-serif" font-size="16" fill="#777777" text-anchor="middle">220 Ω</text>
+<path d="M675,465 L735,465" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M735,465 L755,465" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<path d="M755,451 L755,479 L782,465 Z M782,450 L782,480 M782,465 L802,465" fill="none" stroke="#e74b4b" stroke-width="1.6"/>
+<path d="M767,445 l15,-16" stroke="#e74b4b" stroke-width="1.4" marker-end="url(#arrow)"/>
+<path d="M782,445 l15,-16" stroke="#e74b4b" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="825" y="471" font-family="Arial,sans-serif" font-size="17" fill="#777777" text-anchor="start">Nord — roșu</text>
+<path d="M802,465 L815,465" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M815,465 L815,495" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M815,495 L1050,495" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<circle cx="1050" cy="495" r="3" fill="#32b983"/>
+<path d="M525,550 L590,550" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M590,550 L600,550" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<rect x="600" y="541" width="65" height="18" fill="white" stroke="#e74b4b" stroke-width="1.6"/>
+<path d="M665,550 L675,550" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="632" y="530" font-family="Arial,sans-serif" font-size="16" fill="#777777" text-anchor="middle">220 Ω</text>
+<path d="M675,550 L735,550" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M735,550 L755,550" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<path d="M755,536 L755,564 L782,550 Z M782,535 L782,565 M782,550 L802,550" fill="none" stroke="#e74b4b" stroke-width="1.6"/>
+<path d="M767,530 l15,-16" stroke="#e74b4b" stroke-width="1.4" marker-end="url(#arrow)"/>
+<path d="M782,530 l15,-16" stroke="#e74b4b" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="825" y="556" font-family="Arial,sans-serif" font-size="17" fill="#777777" text-anchor="start">Nord — galben</text>
+<path d="M802,550 L815,550" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M815,550 L815,580" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M815,580 L1050,580" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<circle cx="1050" cy="580" r="3" fill="#32b983"/>
+<path d="M525,635 L590,635" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M590,635 L600,635" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<rect x="600" y="626" width="65" height="18" fill="white" stroke="#e74b4b" stroke-width="1.6"/>
+<path d="M665,635 L675,635" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="632" y="615" font-family="Arial,sans-serif" font-size="16" fill="#777777" text-anchor="middle">220 Ω</text>
+<path d="M675,635 L735,635" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M735,635 L755,635" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<path d="M755,621 L755,649 L782,635 Z M782,620 L782,650 M782,635 L802,635" fill="none" stroke="#e74b4b" stroke-width="1.6"/>
+<path d="M767,615 l15,-16" stroke="#e74b4b" stroke-width="1.4" marker-end="url(#arrow)"/>
+<path d="M782,615 l15,-16" stroke="#e74b4b" stroke-width="1.4" marker-end="url(#arrow)"/>
+<text x="825" y="641" font-family="Arial,sans-serif" font-size="17" fill="#777777" text-anchor="start">Nord — verde</text>
+<path d="M802,635 L815,635" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M815,635 L815,665" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M815,665 L1050,665" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<circle cx="1050" cy="665" r="3" fill="#32b983"/>
+<path d="M525,780 L650,780" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M650,780 L670,780" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<circle cx="670" cy="780" r="3" fill="white" stroke="#e74b4b" stroke-width="1.6"/>
+<circle cx="720" cy="780" r="3" fill="white" stroke="#e74b4b" stroke-width="1.6"/>
+<path d="M670,776 L714,763" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<path d="M692,755 L692,740" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<path d="M681,740 L703,740" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="750" y="768" font-family="Arial,sans-serif" font-size="17" fill="#777777" text-anchor="start">Cerere Nord</text>
+<path d="M723,780 L1050,780" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<circle cx="1050" cy="780" r="3" fill="#32b983"/>
+<path d="M525,880 L650,880" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M650,880 L670,880" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<circle cx="670" cy="880" r="3" fill="white" stroke="#e74b4b" stroke-width="1.6"/>
+<circle cx="720" cy="880" r="3" fill="white" stroke="#e74b4b" stroke-width="1.6"/>
+<path d="M670,876 L714,863" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<path d="M692,855 L692,840" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<path d="M681,840 L703,840" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<text x="750" y="868" font-family="Arial,sans-serif" font-size="17" fill="#777777" text-anchor="start">Cerere pietoni</text>
+<path d="M723,880 L1050,880" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<circle cx="1050" cy="880" r="3" fill="#32b983"/>
+<path d="M1050,240 L1050,935" stroke="#32b983" stroke-width="1.6" fill="none"/>
+<path d="M1050,935 L1050,947" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<path d="M1037,947 L1063,947" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<path d="M1042,953 L1058,953" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+<path d="M1047,959 L1053,959" stroke="#e74b4b" stroke-width="1.6" fill="none"/>
+</svg>
